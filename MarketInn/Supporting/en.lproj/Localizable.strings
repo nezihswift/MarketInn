@@ -1,0 +1,20 @@
+/* 
+  Localizable.strings
+  MarketInn
+
+  Created by Nezih on 16.03.2023.
+  
+*/
+
+// Login Page
+"login.idtext" = "Email";
+"login.passwordtext" = "Password";
+"login.logintext" = "Login";
+"login.createaccounttext" = "Create Account";
+
+// Create Account Page
+"createaccount.title" = "Create Account";
+"createaccount.emailtext" = "Email";
+"createaccount.passwordtext" = "Password";
+"createaccount.repeatpasswordtext" = "Confirm Password";
+"createaccount.registerbutton" = "Register";
