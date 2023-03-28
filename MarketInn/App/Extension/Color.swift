@@ -13,6 +13,10 @@ extension UIColor {
 }
 
 struct ColorTheme {
+    let accent = UIColor(named: "AccentColor")
+    let secondary = UIColor(named: "SecondaryColor")
+    let text = UIColor(named: "TextColor")
     let grayTextColor = UIColor.systemGray
     let errorTextColor = UIColor.systemRed
+    let clickableTextColor = UIColor.systemBlue
 }

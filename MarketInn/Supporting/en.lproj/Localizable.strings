@@ -5,12 +5,20 @@
   Created by Nezih on 16.03.2023.
   
 */
+/// MAIN SECTION
+"main.loginbutton" = "Login";
+
+/// LOGIN SECTION
 
 // Login Page
+"login.title" = "Login";
 "login.idtext" = "Email";
 "login.passwordtext" = "Password";
 "login.logintext" = "Login";
 "login.createaccounttext" = "Create Account";
+"login.resetpasswordtext" = "Forgot Password?";
+"login.invalidemail" = "Invalid email format";
+"login.passwordempty" = "Password cannot be empty";
 
 // Create Account Page
 "createaccount.title" = "Create Account";
@@ -18,3 +26,18 @@
 "createaccount.passwordtext" = "Password";
 "createaccount.repeatpasswordtext" = "Confirm Password";
 "createaccount.registerbutton" = "Register";
+
+// Forgot Password Page
+"forgotpassword.title" = "Password Reset";
+"forgotpassword.informationtext" = "Please enter your email in the box below to reset your password";
+"forgotpassword.resetbutton" = "Send Email";
+"forgotpassword.emailtext" = "Email";
+
+// Email Error Popup
+"emailerror.title" = "Error";
+"emailerror.button" = "OK";
+
+// Email Success Popup
+"emailsuccess.title" = "Email";
+"emailsuccess.text" = "A password reset email has been sent to your e-mail";
+"emailsuccess.button" = "OK";

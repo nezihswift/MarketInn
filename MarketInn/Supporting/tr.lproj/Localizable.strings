@@ -1,0 +1,16 @@
+/* 
+  Localizable.strings
+  MarketInn
+
+  Created by Nezih on 16.03.2023.
+  
+*/
+
+// Login Page
+"login.idtext" = "Email";
+"login.passwordtext" = "Şifre";
+"login.logintext" = "Giriş";
+"login.createaccounttext" = "Hesap Oluştur";
+
+// Create Account Page
+"createaccount.title" = "Hesap Oluştur";

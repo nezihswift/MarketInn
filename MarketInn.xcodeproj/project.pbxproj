@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		5FEEA9F27B597C3D026DF63E /* Pods_MarketInn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01E368F8804367ACF3B9FADE /* Pods_MarketInn.framework */; };
 		9D07009929C3B8AF00168CC3 /* CreateAccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D07009829C3B8AF00168CC3 /* CreateAccountViewModel.swift */; };
+		9D1362F829D36E4000DBD529 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D1362F729D36E4000DBD529 /* HomeViewController.swift */; };
 		9D152D4F29C36F6600D98924 /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D152D4E29C36F6600D98924 /* CreateAccountViewController.swift */; };
 		9D4F016A29C37A6300910615 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9D4F016C29C37A6300910615 /* Localizable.strings */; };
 		9D4F017029C37B0400910615 /* StringHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4F016F29C37B0400910615 /* StringHelper.swift */; };
@@ -16,6 +17,8 @@
 		9D4F017429C39F8F00910615 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4F017329C39F8F00910615 /* Constants.swift */; };
 		9D4F017729C3A38600910615 /* AuthenticationHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4F017629C3A38600910615 /* AuthenticationHandler.swift */; };
 		9D4F017929C3A58E00910615 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4F017829C3A58E00910615 /* LoginViewModel.swift */; };
+		9D893AF929CB3258001BC26B /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D893AF829CB3258001BC26B /* ForgotPasswordViewController.swift */; };
+		9DB808CC29CE13F0002F5046 /* ForgotPasswordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DB808CB29CE13F0002F5046 /* ForgotPasswordViewModel.swift */; };
 		9DBED87129BA6A5A005A9975 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DBED87029BA6A5A005A9975 /* AppDelegate.swift */; };
 		9DBED87329BA6A5A005A9975 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DBED87229BA6A5A005A9975 /* SceneDelegate.swift */; };
 		9DBED87529BA6A5A005A9975 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DBED87429BA6A5A005A9975 /* LoginViewController.swift */; };
@@ -31,6 +34,7 @@
 		17723F4814A75CCFB3546338 /* Pods-MarketInn.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarketInn.debug.xcconfig"; path = "Target Support Files/Pods-MarketInn/Pods-MarketInn.debug.xcconfig"; sourceTree = "<group>"; };
 		2239C2BF94C2AFAFDB256C93 /* Pods-MarketInn.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarketInn.release.xcconfig"; path = "Target Support Files/Pods-MarketInn/Pods-MarketInn.release.xcconfig"; sourceTree = "<group>"; };
 		9D07009829C3B8AF00168CC3 /* CreateAccountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountViewModel.swift; sourceTree = "<group>"; };
+		9D1362F729D36E4000DBD529 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		9D152D4E29C36F6600D98924 /* CreateAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
 		9D4F016B29C37A6300910615 /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/Localizable.strings; sourceTree = "<group>"; };
 		9D4F016D29C37A6900910615 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -39,6 +43,8 @@
 		9D4F017329C39F8F00910615 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		9D4F017629C3A38600910615 /* AuthenticationHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationHandler.swift; sourceTree = "<group>"; };
 		9D4F017829C3A58E00910615 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		9D893AF829CB3258001BC26B /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		9DB808CB29CE13F0002F5046 /* ForgotPasswordViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewModel.swift; sourceTree = "<group>"; };
 		9DBED86D29BA6A5A005A9975 /* MarketInn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarketInn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DBED87029BA6A5A005A9975 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9DBED87229BA6A5A005A9975 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -82,6 +88,24 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		9D1362F529D36DE400DBD529 /* LoginSection */ = {
+			isa = PBXGroup;
+			children = (
+				9D893AF729CB3247001BC26B /* ForgotPassword */,
+				9D152D4D29C36F5500D98924 /* CreateAccount */,
+				9DE3900329C3639900A181EA /* Login */,
+			);
+			path = LoginSection;
+			sourceTree = "<group>";
+		};
+		9D1362F629D36DF600DBD529 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				9D1362F729D36E4000DBD529 /* HomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
 		9D152D4D29C36F5500D98924 /* CreateAccount */ = {
 			isa = PBXGroup;
 			children = (
@@ -115,6 +139,15 @@
 				9D4F017629C3A38600910615 /* AuthenticationHandler.swift */,
 			);
 			path = Handler;
+			sourceTree = "<group>";
+		};
+		9D893AF729CB3247001BC26B /* ForgotPassword */ = {
+			isa = PBXGroup;
+			children = (
+				9D893AF829CB3258001BC26B /* ForgotPasswordViewController.swift */,
+				9DB808CB29CE13F0002F5046 /* ForgotPasswordViewModel.swift */,
+			);
+			path = ForgotPassword;
 			sourceTree = "<group>";
 		};
 		9DBED86429BA6A5A005A9975 = {
@@ -180,8 +213,8 @@
 		9DE3900229C3639100A181EA /* View */ = {
 			isa = PBXGroup;
 			children = (
-				9D152D4D29C36F5500D98924 /* CreateAccount */,
-				9DE3900329C3639900A181EA /* Login */,
+				9D1362F629D36DF600DBD529 /* Home */,
+				9D1362F529D36DE400DBD529 /* LoginSection */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -327,9 +360,12 @@
 				9D152D4F29C36F6600D98924 /* CreateAccountViewController.swift in Sources */,
 				9D4F017229C3826C00910615 /* Color.swift in Sources */,
 				9DBED87529BA6A5A005A9975 /* LoginViewController.swift in Sources */,
+				9D1362F829D36E4000DBD529 /* HomeViewController.swift in Sources */,
 				9DBED87129BA6A5A005A9975 /* AppDelegate.swift in Sources */,
+				9DB808CC29CE13F0002F5046 /* ForgotPasswordViewModel.swift in Sources */,
 				9DBED87329BA6A5A005A9975 /* SceneDelegate.swift in Sources */,
 				9D07009929C3B8AF00168CC3 /* CreateAccountViewModel.swift in Sources */,
+				9D893AF929CB3258001BC26B /* ForgotPasswordViewController.swift in Sources */,
 				9DBED87B29BA6A5A005A9975 /* MarketInn.xcdatamodeld in Sources */,
 				9D4F017929C3A58E00910615 /* LoginViewModel.swift in Sources */,
 				9D4F017429C39F8F00910615 /* Constants.swift in Sources */,
